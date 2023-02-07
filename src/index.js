@@ -1,10 +1,10 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Leaderboard from './Leaderboard';
+import Match from './match';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-    <Leaderboard />
+  <Match />
 );
 
 

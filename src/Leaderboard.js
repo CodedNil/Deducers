@@ -5,7 +5,7 @@ let players = [
   {username:'Nick',score:-40}
 ]
 
-function App() {
+function Leaderboard() {
   return (
     <div className="App">
       <ul>
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default Leaderboard;
